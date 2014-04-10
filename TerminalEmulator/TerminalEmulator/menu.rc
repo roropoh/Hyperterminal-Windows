@@ -1,0 +1,25 @@
+#include "Header.h"
+
+MYMENU MENU
+{
+    MENUITEM "&Connect", IDM_CONNECT
+
+    MENUITEM "&Disconnect", IDM_DISCONNECT
+
+    POPUP "&Settings"
+    {
+        POPUP "&Port Settings"
+        {
+            MENUITEM "&COM1", IDM_COM1
+            MENUITEM "&COM2", IDM_COM2
+            MENUITEM "&COM3", IDM_COM3
+            MENUITEM "&COM4", IDM_COM4
+            MENUITEM "&COM5", IDM_COM5
+            MENUITEM "&COM6", IDM_COM6
+            MENUITEM "&COM7", IDM_COM7
+            MENUITEM "&COM8", IDM_COM8
+        }
+        MENUITEM "&Save", IDM_Save
+    }
+    MENUITEM "&Help", IDM_HELP
+}
